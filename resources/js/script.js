@@ -58,7 +58,7 @@ $(document).ready(function () {
                     });
                 }
             }
-        });
+        }); 
 
 
     /* Animation on scroll */
@@ -87,5 +87,21 @@ $(document).ready(function () {
     };
 
 
+    /* Mobile nav */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+
+        
+        if (icon.hasClass('ion-md-menu')) {
+            icon.addClass('ion-md-close');
+            icon.removeClass('ion-md-menu');
+        } else {
+            icon.addClass('ion-md-menu');
+            icon.removeClass('ion-md-close');
+        }
+        nav.slideToggle(200);
+        
+    });
 
 })

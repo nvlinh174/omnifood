@@ -8,9 +8,7 @@
     box-sizing: border-box;
 }
 
-*:focus {
-    outline: none;
-}
+*:focus { outline: none; }
 
 html,
 body {
@@ -22,9 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-.clearfix {
-    zoom: 1;
-}
+.clearfix { zoom: 1; }
 
 .clearfix::after {
     content: '.';
@@ -44,13 +40,9 @@ body {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
+section { padding: 80px 0; }
 
-.box {
-    padding: 1%;
-}
+.box { padding: 1%; }
 
 /* ------ HEADINGS ----- */
 h1,
@@ -223,6 +215,8 @@ header {
     margin: 5px 0;
 }
 
+
+/* ----- MAIN NAV ----- */
 .main-nav {
     float: right;
     list-style: none;
@@ -250,6 +244,21 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+
+/* ----- MOBILE NAV ----- */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
 /* ----- STICKY NAV ----- */
 .sticky {
     position: fixed;
@@ -261,9 +270,7 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav {
-    margin-top: 18px;
-}
+.sticky .main-nav { margin-top: 18px; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -271,13 +278,9 @@ header {
     color: #555;
 }
 
-.sticky .logo {
-    display: none;
-}
+.sticky .logo { display: none; }
 
-.sticky .logo-black {
-    display: block;
-}
+.sticky .logo-black { display: block; }
 
 /* --------------------------------------------------- */
 /* FEATURES */
@@ -292,9 +295,7 @@ header {
 /* MEALS */
 /* --------------------------------------------------- */
 
-.section-meals {
-    padding: 0;
-}
+.section-meals { padding: 0; }
 
 .meals-showcase {
     list-style: none;
@@ -333,9 +334,7 @@ header {
 /* HOW IT WORKS */
 /* --------------------------------------------------- */
 
-.section-steps {
-    background-color: #f4f4f4;
-}
+.section-steps { background-color: #f4f4f4; }
 
 .steps-box:first-child {
     text-align: right;
@@ -347,17 +346,11 @@ header {
     margin-top: 50px;
 }
 
-.app-screen {
-    width: 40%;
-}
+.app-screen { width: 40%; }
 
-.works-step {
-    margin-bottom: 50px;
-}
+.works-step { margin-bottom: 50px; }
 
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
+.works-step:last-of-type { margin-bottom: 80px; }
 
 .works-step div {
     display: inline-block;
@@ -393,9 +386,7 @@ header {
     margin-bottom: 15px;
 } 
 
-.city-feature {
-    margin-bottom: 5px;
-}
+.city-feature { margin-bottom: 5px; }
 
 
 /* --------------------------------------------------- */
@@ -443,9 +434,7 @@ cite img {
 /* PLANS */
 /* --------------------------------------------------- */
 
-.section-plans {
-    background-color: #f4f4f4;
-}
+.section-plans { background-color: #f4f4f4; }
 
 .plan-box {
     background-color: #fff;
@@ -483,17 +472,11 @@ cite img {
     font-weight: 400;
 }
 
-.plan-price-meal {
-    font-size: 80%;
-}
+.plan-price-meal { font-size: 80%; }
 
-.plan-box ul {
-    list-style: none;
-}
+.plan-box ul { list-style: none; }
 
-.plan-box ul li {
-    padding: 10px 0;
-}
+.plan-box ul li { padding: 10px 0; }
 
 
 /* --------------------------------------------------- */
@@ -515,17 +498,11 @@ textarea {
     border: 1px solid #ccc;
 }
 
-textarea {
-    height: 100px;
-}
+textarea { height: 100px; }
 
-input[type=submit]:hover {
-    cursor: pointer;
-}
+input[type=submit]:hover { cursor: pointer; }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0px;
-}
+input[type=checkbox] { margin: 10px 5px 10px 0px; }
 
 
 /* --------------------------------------------------- */
@@ -585,21 +562,13 @@ footer {
     transition: 0.2s;
 }
 
-.ion-logo-facebook:hover {
-    color: #1877f2
-}
+.ion-logo-facebook:hover { color: #1877f2; }
 
-.ion-logo-twitter:hover {
-    color: #1da1f2
-}
+.ion-logo-twitter:hover { color: #1da1f2; }
 
-.ion-logo-googleplus:hover {
-    color: #ea4335
-}
+.ion-logo-googleplus:hover { color: #ea4335; }
 
-.ion-logo-instagram:hover {
-    color: #c32aa3
-}
+.ion-logo-instagram:hover { color: #c32aa3; }
 
 footer p {
     color: #888;
@@ -619,9 +588,7 @@ footer p {
     animation-duration: 1s;
 }
 
-.js--wp-4 {
-    animation-duration: 1s;
-}
+.js--wp-4 { animation-duration: 1s; }
 
 .js--wp-1.animated,
 .js--wp-2.animated,
